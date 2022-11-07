@@ -47,6 +47,67 @@
         <p>Possivelmente deu ruim!</p>
     </audio>
 
+    <p>Outra coisa! Já estamos no final do ano, e o campeonato já está em seu fim, faltando apenas duas corridas para seu término. Quais são suas opiniões com relação as disputas que tivemos em 2022? Se possível, preencha o fórmulario a seguir, agradecemos muito!</p>
+
+    <form>
+        <fieldset>
+            <fieldset>
+                <legend>Cadastro: </legend>
+                <p><label for="idNome">Nome: </label><input type="text" name="nNome" id="idNome" placeholder="ex.: Igor Campos Moraes" size="30">
+                <label for="idData">Data de Nascimento: </label><input type="date" name="nData" id="idData">                        
+                <label for="idEmail">E-mail: </label><input type="email" name="nEmail" id="idEmail" placeholder="ex.: igor.C.moraes69@gmail.com" size="30">           
+                <label for="idSenha">Senha: </label><input type="password" name="nSenha" id="idSenha" size="15"></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Opinões sobre 2022: </legend>
+                <p>
+                    <legend>Para qual equipe você torceu este Ano?</legend>
+                    <input type="radio" name="nTeamALFR" id="idTeamALFR"><label for="idTeamALFR">Alfa Romeo</label><br>
+                    <input type="radio" name="nTeamALFT" id="idTeamALFT"><label for="idTeamALFT">AlphaTauri</label><br>
+                    <input type="radio" name="nTeamALP" id="idTeamALP"><label for="idTeamALP">Alpine</label><br>
+                    <input type="radio" name="nTeamASTN" id="idTeamASTN"><label for="idTeamASTN">Aston Martin</label><br>
+                    <input type="radio" name="nTeamFERA" id="idTeamFERA"><label for="idTeamFERA">Ferrari</label><br>
+                    <input type="radio" name="nTeamHAAS" id="idTeamHAAS"><label for="idTeamHAAS">Haas</label><br>
+                    <input type="radio" name="nTeamMCL" id="idTeamMCL"><label for="idTeamMCL">McLaren</label><br>
+                    <input type="radio" name="nTeamMRCD" id="idTeamMRCD"><label for="idTeamMRCD">Mercedes</label><br>
+                    <input type="radio" name="nTeamRBR" id="idTeamRBR"><label for="idTeamRBR">Red Bull</label><br>
+                    <input type="radio" name="nTeamWLA" id="idTeamWLA"><label for="idTeamWLA">Williams</label><br><br>
+
+                    <label for="idNumber">Qual o número do Piloto que tu acompanhou esse ano? </label><input type="number" name="numero" id="idNumber" max="99" min="1"><br><br>
+                
+                    <label>Qual a sua satisfação com 2022? </label><input type="range" min="0" max="10"><br><br>
+                    
+                    <legend>Qual GP foi seu favorito? </legend>
+                        <select name="Qual GP foi seu favorito?">
+                            <option value="GP DO BAHREIN">GP DO BAHREIN</option>
+                            <option value="GP DA ARÁBIA SAUDITA">GP DA ARÁBIA SAUDITA</option>
+                            <option value="GP DA AUSTRÁLIA">GP DA AUSTRÁLIA</option>
+                            <option value="GP DA EMILIA-ROMAGNA">GP DA EMILIA-ROMAGNA</option>
+                            <option value="GP DE MIAMI">GP DE MIAMI</option>
+                            <option value="GP DA ESPANHA">GP DA ESPANHA</option>
+                            <option value="GP DE MÔNACO">GP DE MÔNACO</option>
+                            <option value="GP DO AZERBAIJÃO">GP DO AZERBAIJÃO</option>
+                            <option value="GP DO CANADÁ">GP DO CANADÁ</option>
+                            <option value="GP DA GRÃ-BRETANHA">GP DA GRÃ-BRETANHA</option>
+                            <option value="GP DA ÁUSTRIA">GP DA ÁUSTRIA</option>
+                            <option value="GP DA FRANÇA">GP DA FRANÇA</option>
+                            <option value="GP DA HUNGRIA">GP DA HUNGRIA</option>
+                            <option value="GP DA BÉLGICA">GP DA BÉLGICA</option>
+                            <option value="GP DA HOLANDA">GP DA HOLANDA</option>
+                            <option value="GP DA ITÁLIA">GP DA ITÁLIA</option>
+                            <option value="GP DE SINGAPURA">GP DE SINGAPURA</option>
+                            <option value="GP DO JAPÃO">GP DO JAPÃO</option>
+                            <option value="GP DOS ESTADOS UNIDOS ">GP DOS ESTADOS UNIDOS</option>
+                            <option value="GP DO MÉXICO">GP DO MÉXICO</option>
+                            <option value="GP DO BRASIL">GP DO BRASIL</option>
+                            <option value="GP DE ABU DHABI">GP DE ABU DHABI</option>
+                        </select>
+                </p>
+            </fieldset>
+        </fieldset>
+    </form>
+
 </body>
 
 </html>
